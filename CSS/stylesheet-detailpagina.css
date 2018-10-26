@@ -1,0 +1,199 @@
+/************************************** FONTS **************************************/
+
+body {
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+}
+
+
+/* FONTS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-family: "nexabold", sans-serif;
+}
+
+h1 {
+    color: #2800a0;
+}
+
+h2 {
+    margin-left: 0.6em;
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+
+/************************************** MENU **************************************/
+
+header img {
+    width: 10em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.fas.fa-user,
+.far.fa-heart,
+.fas.fa-download {
+    color: #00d66c;
+    font-size: 1.8em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.fas.fa-user:hover,
+.far.fa-heart:hover,
+.fas.fa-download:hover,
+.fas.fa-user:focus,
+.far.fa-heart:focus,
+.fas.fa-download:focus,
+.fas.fa-user:active,
+.far.fa-heart:active,
+.fas.fa-download:active {
+    color: #ff3268;
+    transition: 0.3s;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2.3em;
+}
+
+header li {
+    margin: 0 0.7em;
+}
+
+header li {
+    margin: 0 0.7em;
+}
+
+nav {
+    border-bottom: solid 2px #00d66c;
+    width: calc(100%+ 2em);
+    margin: 0.5em -0.42em 2em -0.42em;
+    background-color: white;
+    padding-top: 0.3em;
+}
+
+
+/************************************** MAIN
+**************************************/
+
+
+main {
+    padding: 2em;
+}
+
+
+section h1:first-of-type {
+    display: inline;
+    padding-right: 5em;
+    font-size: 2em;
+
+}
+
+
+/************************************** ANIMATIE
+**************************************/
+
+
+section img {
+    width: 4em;
+    padding: auto 2em;
+    margin-bottom: -1em;
+}
+
+.gifbeweeg {
+    margin-left: -3em;
+    visibility: hidden;
+    position:absolute;
+    width: 3.3em;
+}
+.gifbeweeg.visible {
+    visibility: visible;
+    animation: vliegen 1.5s forwards;
+}
+
+.hide {
+    visibility: hidden;
+    position:absolute;
+}
+
+
+
+
+@keyframes vliegen {
+    0% {
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translate(41em, -9.8em);
+    }
+}
+
+
+
+/************************************** ICONEN **************************************/
+
+.fas.fa-eye,
+.fas.fa-star,
+.fas.fa-clock {
+    color: white;
+    font-size: 1.2em;
+    padding: 0.3em;
+    border-radius: 20em;
+}
+
+.fas.fa-eye {
+    background-color: #00d66c;
+}
+
+.fas.fa-star {
+    background-color: #2800a0;
+}
+
+.fas.fa-clock {
+    background-color: #ff3268;
+}
+
+
+footer p {
+    display: inline;
+    color: #202020;
+    color: black;
+    margin: 0em 1em 0em 0em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
