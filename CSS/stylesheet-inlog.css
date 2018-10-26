@@ -1,0 +1,334 @@
+/************************************** FONTS **************************************/
+
+body {
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    background-color: #00D66C;
+
+}
+
+
+/* FONTS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-family: "nexabold", sans-serif;
+}
+
+h1 {
+    color: #2800a0;
+}
+
+h2 {
+    margin-left: 0.6em;
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+
+/************************************** MENU **************************************/
+
+header img {
+    width: 10em;
+    padding-top: 0.4em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.fas.fa-user,
+.far.fa-heart,
+.fas.fa-download {
+    color: #00d66c;
+    font-size: 1.8em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.fas.fa-user:hover,
+.far.fa-heart:hover,
+.fas.fa-download:hover,
+.fas.fa-user:focus,
+.far.fa-heart:focus,
+.fas.fa-download:focus,
+.fas.fa-user:active,
+.far.fa-heart:active,
+.fas.fa-download:active {
+    color: #ff3268;
+    transition: 0.3s;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2.3em;
+}
+
+header li {
+    margin: 0 0.7em;
+}
+
+header li {
+    margin: 0 0.7em;
+}
+
+nav {
+    border-bottom: solid 2px #00d66c;
+    width: calc(100%+ 2em);
+    margin: 0.5em -0.42em 2em -0.42em;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-top: -0.5em;
+}
+
+
+/************************************** CONTENT
+**************************************/
+
+
+[type=email], [type=password] {
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    color: black;
+    height: 2em;
+    border: solid 1px green;
+    background-color: #C3E1C3;
+    border-radius: 0.4em;
+    padding-left: 0.5em;
+    width: 80%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+
+
+[type=submit] {
+    font-size: 1em;
+    background-color: #ff3268;
+    padding: 0.6em 1.3em 0.3em 1.3em;
+    border-bottom: solid 2px #CB315A;
+    border-radius: 4em;
+    color: white;
+    font-family: "nexabold";
+}
+
+[type=submit]:hover {
+    background-color: #fd678f;
+    color: white;
+}
+
+[type=submit]:focus {
+    background-color: #fd678f;
+    margin-top: 0.2em;
+    transition: 0.3s;
+}
+
+form:first-of-type {
+    background-color: white;
+    padding: 2em;
+    padding-top: 1em;
+    border-radius: 1em;
+}
+
+form:last-of-type {
+    background-color: #F5F8FA;
+    padding: 2em;
+    padding-top: 1em;
+    border-radius: 1em;
+}
+
+
+
+label {
+    font-weight: bold;
+    color: #222222;
+}
+
+
+input:not([type=submit]):invalid {
+    border: solid 0.5px #2800a0;
+    background-color: white;
+}
+
+
+input:not([type=submit]):focus {
+    border: solid 2px #2800a0;
+    transform: scale(1.02);
+    transition: 0.5s;
+    outline: none;
+
+}
+
+fieldset>p {
+    visibility: hidden;
+    position: absolute;
+
+}
+
+fieldset {
+    background-color: none;
+    border: none;
+    padding: 1em;
+    padding-left: 0.1em;
+    border-radius: 1em;
+    margin: 1em auto;
+
+}
+
+
+fieldset:valid {
+    background-color: #C3E1C3;
+    padding-left: 1em;
+
+}
+
+
+fieldset:valid p {
+    visibility: visible;
+    position: relative;
+}
+
+
+
+
+
+/************** MOBIEL BREAKPOINT ***************/
+
+@media screen and (min-width: 0rem) {
+
+    main {
+        display: grid;
+    grid-template-columns: repeat(1, 20em);
+    grid-gap: 2rem;
+        max-width: 22em;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+    [type=email], [type=password] {
+     width: 100%;
+    }
+
+
+    form>p:first-of-type {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    form>a:first-of-type {
+        visibility: visible;
+        position: relative;
+    }
+
+
+
+.verdwijn {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/************** IPAD BREAKPOINT ***************/
+
+@media screen and (min-width: 32rem) {
+
+    main {
+        display: grid;
+    grid-template-columns: repeat(1, 30em);
+    grid-gap: 4rem;
+        max-width: 34em;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+    form>p:first-of-type {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    form>a:first-of-type {
+        visibility: visible;
+        position: relative;
+    }
+
+
+
+.verdwijn {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/************** LAPTOP BREAKPOINT ***************/
+
+@media screen and (min-width: 68rem) {
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 30em);
+    grid-column-gap: 2rem;
+    max-width: 62em;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+    form>a:first-of-type {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    form>p:first-of-type {
+        visibility: visible;
+        position: relative;
+    }
+
+    .verdwijn {
+    visibility: visible;
+    position: relative;
+}
+
+
+
+}
+
+
+
+
+
+

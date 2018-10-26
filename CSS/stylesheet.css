@@ -1,0 +1,853 @@
+/************************************** FONTS **************************************/
+
+body {
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    color: #606060;
+}
+
+
+/* FONTS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-family: "nexabold", sans-serif;
+}
+
+h1,
+{
+    font-size: 1.6em;
+}
+
+h2 {
+    margin-left: 0.6em;
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+
+/************************************** MENU **************************************/
+
+header img {
+    width: 10em;
+    padding-top: 0.4em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.fas.fa-user,
+.far.fa-heart,
+.fas.fa-download {
+    color: #00d66c;
+    font-size: 1.8em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.fas.fa-user:hover,
+.far.fa-heart:hover,
+.fas.fa-download:hover,
+.fas.fa-user:focus,
+.far.fa-heart:focus,
+.fas.fa-download:focus,
+.fas.fa-user:active,
+.far.fa-heart:active,
+.fas.fa-download:active {
+    color: #ff3268;
+    transition: 0.3s;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2.3em;
+}
+
+header li {
+    margin: 0 0.7em;
+}
+
+header li {
+    margin: 0 0.7em;
+}
+
+nav {
+    border-bottom: solid 2px #00d66c;
+    width: calc(100%+ 2em);
+    margin: 0.5em -0.42em 2em -0.42em;
+}
+
+
+/************************************** ZOEKBALK **************************************/
+
+form:first-of-type {
+    text-align: center;
+}
+
+[type=text] {
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    color: black;
+    height: 2em;
+    border: solid 0.5px #2800a0;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    width: 52%;
+    width: 58%;
+}
+
+[type=submit] {
+    font-size: 1em;
+    background-color: #ff3268;
+    padding: 0.6em 1.3em 0.3em 1.3em;
+    border-bottom: solid 2px #CB315A;
+    border-radius: 4em;
+    color: white;
+    font-family: "nexabold";
+}
+
+[type=reset] {
+    font-size: 1em;
+    background-color: #fff;
+    padding: 0.6em 1.3em 0.3em 1.3em;
+    border: solid 2px #ff3268;
+    border-bottom: solid 3px #CB315A;
+    border-radius: 4em;
+    color: #606060;
+    font-family: "nexabold";
+}
+
+[type=submit]:hover,
+[type=reset]:hover {
+    background-color: #fd678f;
+    color: white;
+}
+
+[type=submit]:active,
+[type=reset]:active,
+[type=submit]:focus,
+[type=reset]:focus {
+    background-color: #fd678f;
+    margin-top: 0.2em;
+    transition: 0.3s;
+}
+
+
+/************************************** FILTERS **************************************/
+
+
+input:not([type=submit]):focus {
+    border: solid 2px #2800a0;
+    transform: scale(1.01);
+    transition: 0.5s;
+    outline: none;
+
+}
+
+.filter {
+    border: solid 3px #2800a0;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: -1em;
+}
+
+.fas.fa-angle-down {
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+button:first-of-type {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    background-color: #2800a0;
+    padding: 0.6em 1.3em 0.9em 1.3em;
+    width: 100%;
+    border-bottom: solid 2px #140549;
+    border-radius: 4em;
+    color: white;
+    font-family: "nexabold";
+}
+
+ :checked+span {
+    font-weight: bold;
+    color: #00d66c;
+}
+
+label {
+    margin-right: 0.5em;
+}
+
+[type=checkbox] {
+    display: none;
+}
+
+legend {
+    font-family: nexabold;
+    color: #00d66c;
+    font-size: 1em;
+}
+
+fieldset {
+    border: solid 2px #cccccc;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+fieldset:last-of-type {
+    margin-bottom: 1em;
+}
+
+.leestijd-filter {
+    padding: 0em 0.5em 0em 0.5em;
+    font-family: nexabold;
+    color: #00d66c;
+    font-size: 1em;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #F7F7F7;
+    border: solid 2px #606060;
+    border-radius: 1em;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #00d66c;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #00d66c;
+    cursor: pointer;
+}
+
+
+/************************************** BODY **************************************/
+
+
+/************** FONTS & ICONS ***************/
+
+h1:first-of-type {
+    background-color: #F3E5D9;
+    padding: 1em;
+    margin: none;
+    color: #2800a0;
+    width: calc(100%+ 2em);
+    margin: 2em -0.3em 0 -0.3em;
+    display: block;
+}
+
+.introtekst {
+    padding: 1em 1.6em 1.5em 1.6em;
+    font-size: 1em;
+    background-color: #F3E5D9;
+    color: #2800a0;
+    width: calc(100%+ 2em);
+    margin: -2em -0.5em 0 -0.5em;
+    display: block;
+}
+
+main h2 {
+    padding: 2.5em 0em 0em 0em;
+    color: #00d66c;
+}
+
+footer p,
+.fas fa-eye,
+.fas fa-star,
+.fas fa-clock {
+    display: inline;
+    color: #202020;
+    color: black;
+    margin: 0em 0.5em 0em 0em;
+    text-align: center;
+}
+
+
+/************** TOGGLE SCHAKELAAR - CREDIT PROTO.IO https://proto.io/freebies/onoff/
+***************/
+
+.onoffswitch {
+    position: relative;
+    width: 250px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: 3em;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 1em;
+    color: white;
+    font-family: "nexabold", sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 1em;
+    color: white;
+    font-family: "nexabold", sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "Willekeurige Volgorde Aan";
+    padding-left: 10px;
+    background-color: #00d66c;
+    color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+    content: "Willekeurige Volgorde Uit";
+    padding-right: 10px;
+    background-color: #fff;
+    color: #606060;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 18px;
+    margin: 6px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 217px;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+    right: 6px;
+}
+
+
+/************** De artikelen en carousels
+***************/
+
+main>div:first-of-type {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+article {
+    border: solid 2px #606060;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    width: 13em;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}
+
+article img {
+    width: calc(100% + 2em);
+    margin: -1em -1em 0.5em -1em;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+    display: block;
+    height: 11em;
+    object-fit: cover;
+    margin: -1em -1em 0.5em -1em;
+    display: block;
+    height: 11em;
+}
+
+article h3 {
+    width: calc(100% + 0em);
+    margin: 0.3em 0em 0em -1em;
+    color: #2800a0;
+    background-color: none;
+    padding-left: 1em;
+}
+
+article a {
+    color: #2800a0;
+    text-decoration: none;
+    visibility: hidden;
+    position: absolute;
+    vertical-align: text-bottom;
+}
+
+article>p:last-of-type {
+    visibility: hidden;
+    position: absolute;
+}
+
+article a:hover {
+    color: #ff3268;
+    text-decoration: none;
+}
+
+.fas.fa-eye,
+.fas.fa-star,
+.fas.fa-clock {
+    color: #ff3268;
+    font-size: 1.2em;
+}
+
+section div:first-of-type {
+    width: 20em;
+    height: 54em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    transform: rotate(-90deg) translateY(-23em);
+    margin-top: -5em;
+    margin-bottom: -25em;
+}
+
+section>h2 {
+    margin-top: 0em;
+    padding-bottom: 0.5em;
+}
+
+.meest-gelezen {
+    margin-top: -20em;
+    margin-bottom: -25em;
+}
+
+section:first-of-type article:last-of-type img:last-of-type {
+    height: 6.4em;
+}
+
+
+/************** CATEGORIEËN ***************/
+
+section:last-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+section:last-of-type>h2 {
+    flex-basis: 100%;
+    color: #2800a0;
+    margin-bottom: 0.5em;
+}
+
+figure>img {
+    max-width: 7.5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    flex-basis: auto;
+    margin: auto -2em;
+}
+
+figure>figcaption {
+    max-width: 7.5em;
+    background-color: #00d66c;
+    padding: 0.05em;
+    margin: auto -2em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    flex-basis: auto;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+
+/************** CATEGORIEËN ***************/
+
+section:last-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+section:last-of-type>h2 {
+    flex-basis: 100%;
+    color: #2800a0;
+    margin-bottom: -0.5em;
+}
+
+figure>img {
+    max-width: 10em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    flex-basis: auto;
+    margin: auto -2em;
+}
+
+figure>figcaption {
+    max-width: 10em;
+    background-color: #00d66c;
+    padding: 0.05em;
+    margin: auto -2em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    flex-basis: auto;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+
+/************** FOOTER ***************/
+
+body>footer {
+    margin-top: 4em;
+}
+
+
+/************** IPAD BREAKPOINT ***************/
+
+@media screen and (min-width: 44rem) {
+    section div:first-of-type {
+        width: auto;
+        height: auto;
+        overflow-y: auto;
+        overflow-x: auto;
+        transform: rotate(0deg);
+        transform-origin: right top;
+        transform: rotate(0deg);
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    article {
+        border: solid 2px #606060;
+        box-sizing: border-box;
+        border-radius: 1em;
+        margin: 1em;
+        padding: 1em;
+        width: 20em;
+        transform: rotate(0deg);
+        transform-origin: right top;
+    }
+    main section article:first-of-type {
+        display: none;
+    }
+    main section:first-of-type {
+        margin-bottom: 35em;
+    }
+    .meest-gelezen {
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+    article a {
+        visibility: visible;
+        position: relative;
+    }
+    article>p:last-of-type {
+        visibility: visible;
+        position: relative;
+    }
+    main section div {
+        display: grid;
+        grid-template-columns: repeat(2, 19em);
+        grid-column-gap: 2rem;
+        grid-row-gap: 0rem;
+    }
+    /*** FILTERS ***/
+    .filter {
+        border: none;
+        padding: 1em;
+        margin-top: -1em;
+    }
+    button:first-of-type {
+        display: none;
+    }
+    .filter [type=submit] {
+        width: 12em;
+        margin-right: 17em;
+        margin-left: 10em;
+        margin-bottom: -2em;
+    }
+    .filter [type=reset] {
+        margin-left: 15em;
+        width: 7em;
+        margin-bottom: -2em;
+    }
+    legend {
+        font-family: nexabold;
+        color: #fff;
+        background-color: #00d66c;
+        padding: 0.5em 2em;
+        border-radius: 1em;
+        font-size: 1em;
+        text-align: center;
+    }
+    fieldset {
+        border: solid 1px #cccccc;
+        padding: 0.5em 0.2em 0.5em 0.2em;
+        margin-top: 3em;
+        height: 8em;
+    }
+    fieldset label {
+        padding-left: 1em;
+        display: block;
+    }
+    .leestijd-filter {
+        margin-left: 0.5em;
+        margin-top: 3.5em;
+        text-align: center;
+    }
+    .leestijd-filter span {
+        color: #fff;
+        background-color: #00d66c;
+        padding: 0.5em 2em;
+        border-radius: 1em;
+    }
+    [type=range] {
+        margin-left: 1.3em;
+        margin-top: 1.5em;
+    }
+    .filter {
+        display: grid;
+        grid-template-columns: repeat(5, 8em);
+        grid-gap: 0.5em;
+        justify-self: center;
+        max-width: 42.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .meest-gelezen {
+        margin-top: -30em;
+    }
+}
+
+
+/************** IPAD BREAKPOINT 2 ***************/
+
+@media screen and (min-width: 64rem) {
+    main section div {
+        display: grid;
+        grid-template-columns: repeat(3, 19em);
+        grid-column-gap: 2rem;
+        grid-row-gap: 0rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************** LAPTOP BREAKPOINT ***************/
+
+@media screen and (min-width: 77rem) {
+    main section div {
+        display: grid;
+        grid-template-columns: repeat(3, 19em);
+        grid-column-gap: 2rem;
+        grid-row-gap: 0rem;
+    }
+    article {
+        width: 18em;
+    }
+    main section:first-of-type {
+        margin-bottom: 5em;
+    }
+    main section:last-of-type {
+        margin-top: 5em;
+    }
+    section>h2 {
+        margin-top: 0em;
+    }
+    main section:first-of-type {
+        margin-bottom: 36em;
+    }
+    .meest-gelezen {
+        margin-bottom: 0em;
+    }
+    .filter {
+        display: block;
+        height: 100%;
+        width: 13em;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        border-right: solid 2px #00d66c;
+    }
+    main,
+    nav {
+        margin-left: 15em;
+    }
+    form:first-of-type {
+        margin-left: 6em;
+    }
+    body>footer {
+        margin-left: 16em;
+    }
+    fieldset {
+        height: auto;
+        margin-top: 0.5em;
+    }
+    .filter [type=submit] {
+        margin-left: auto;
+        margin-top: 1em;
+    }
+    .filter [type=reset] {
+        margin-left: auto;
+        margin-top: 1em;
+    }
+    .leestijd-filter span {
+        margin-left: 1.5em;
+    }
+    [type=range] {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main>div:first-of-type {
+        visibility: visible;
+        position: relative;
+        background-image: url("../../afbeeldingen/johan.png");
+        width: 100%;
+        padding: 2em;
+        margin-top: 2em;
+        margin-bottom: -4em;
+    }
+    main div>p:first-of-type {
+        color: #202020;
+        width: 31.6em;
+        margin-left: 25.1em;
+        padding: 1em;
+        padding-top: 1.5em;
+        background-color: #fff;
+        margin-bottom: -5em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    main div h1:first-of-type {
+        color: #00d66c;
+        width: 14.77em;
+        margin-left: 12.56em;
+        padding: 0em 1em;
+        background-color: #fff;
+    }
+    main div>p:last-of-type {
+        color: #202020;
+        width: 31.6em;
+        margin-left: 25.1em;
+        background-color: #fff;
+        padding: 2em 1em 2em 1em;
+        margin-top: -1em;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    main div p>a {
+        text-decoration: none;
+        background-color: #00d66c;
+        padding: 0.6em 1.3em 0.3em 1.3em;
+        border-bottom: solid 2px #00a854;
+        border-radius: 4em;
+        color: white;
+        font-family: "nexabold";
+        display: block;
+        margin-top: 1em;
+        width: 12.5em;
+    }
+    main div p>a:hover {
+        background-color: #00f27a;
+    }
+}
