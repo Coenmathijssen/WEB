@@ -420,11 +420,11 @@ footer {
 @media screen and (max-width: 30rem) {
 
     select {
-        10em;
+        width: 10em;
     }
 
     article {
-        17em;
+        width: 17em;
     }
 
     div {
