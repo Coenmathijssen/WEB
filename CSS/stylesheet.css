@@ -1,4 +1,4 @@
-/************************************** FONTS **************************************/
+    /************************************** FONTS **************************************/
 
 body {
     font-family: "nexaregular", sans-serif;
@@ -141,7 +141,8 @@ form:first-of-type {
     transition: 0.3s;
 }
 
-[type=reset]:active, [type=reset]:focus {
+[type=reset]:active,
+[type=reset]:focus {
     background-color: #3000c6;
     margin-top: 0.2em;
     transition: 0.3s;
@@ -154,13 +155,11 @@ form:first-of-type {
 
 /************************************** FILTERS **************************************/
 
-
 input:not([type=submit]):focus {
     border: solid 2px #2800a0;
     transform: scale(1.01);
     transition: 0.5s;
     outline: none;
-
 }
 
 .filter {
@@ -170,12 +169,14 @@ input:not([type=submit]):focus {
     margin-top: -1em;
 }
 
-.fas.fa-angle-down, .fas.fa-angle-up {
+.fas.fa-angle-down,
+.fas.fa-angle-up {
     margin-left: 1em;
     font-size: 1.2em;
 }
 
-button:first-of-type, .filterToggleIn {
+button:first-of-type,
+.filterToggleIn {
     margin-top: 2em;
     margin-bottom: 0em;
     font-family: "nexaregular", sans-serif;
@@ -426,8 +427,6 @@ main>div:first-of-type {
     position: absolute;
 }
 
-
-
 article {
     border: solid 2px #606060;
     border-radius: 1em;
@@ -436,9 +435,7 @@ article {
     width: 13em;
     transform: rotate(90deg);
     transform-origin: right top;
-
-    box-shadow: 0px 0px 16px 3px rgba(0,0,0,0.29);
-
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.29);
 }
 
 article img {
@@ -509,7 +506,7 @@ section>h2 {
     margin-bottom: -25em;
 }
 
-section:first-of-type article:last-of-type img:last-of-type {
+section:first-of-type article:nth-of-type(2) img {
     height: 6.4em;
 }
 
@@ -595,9 +592,6 @@ figure>figcaption {
 body>footer {
     margin-top: 4em;
 }
-
-
-
 
 
 /************** IPAD BREAKPOINT ***************/
@@ -729,22 +723,6 @@ body>footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /************** LAPTOP BREAKPOINT ***************/
 
 @media screen and (min-width: 77rem) {
@@ -775,6 +753,7 @@ body>footer {
     .filter {
         display: block;
         height: 100%;
+        transition: 1s;
         width: 13em;
         position: fixed;
         z-index: 1;
@@ -868,13 +847,7 @@ body>footer {
 }
 
 
-
-
-
-
-
 /************** MICRO-INTERACTION RESULTATEN ***************/
-
 
 .bgColor {
     background-color: #00d66c;
@@ -883,44 +856,21 @@ body>footer {
 }
 
 
-
 /************** MOBIEL ANIMAIE ***************/
 
 @media screen and (max-width: 44rem) {
-
-    .hide {
-        visibility: hidden;
-        position: absolute;
+    .filter {
+        height: 0;
+        transition: height 1s;
+        overflow: hidden;
+        margin-top: -1em;
+        border: none;
     }
 
-
-/*    .filter {
-
--webkit-animation: slide-bottom 1.5s ease-in-out both;
-            animation: slide-bottom 1.5s ease-in-out both;
-        overflow-y: hidden;
-        z-index: -1;
-
-}
-
-    .filterToggleUit {
-        z-index: 1;
-    }
-
-@-webkit-keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(-3em);
-            transform: translateY(-3em);
-  }
-  100% {
-    -webkit-transform: translateY(0em);
-            transform: translateY(0em);
-  }
+    .filterOpen {
+        height: 25em;
+        border: solid 3px #2800a0;
+        }
 }
 
 */
-
-
-
-
-

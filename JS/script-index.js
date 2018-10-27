@@ -32,7 +32,7 @@ var filter = document.querySelector(".filter");
 var filterToggleUit = document.querySelector(".filterToggleUit");
 
 function toggleUitklap() {
-    filter.classList.toggle("hide");
+    filter.classList.toggle("filterOpen");
 }
 
 
