@@ -395,9 +395,17 @@ footer {
         margin-right: 0.3em;
     }
 
+    article {
+        width: 18em;
+    }
+
+    section div article p:nth-of-type(3) {
+        margin-left: 13em;
+    }
+
      div {
         display: grid;
-        grid-template-columns: repeat(1, 20em);
+        grid-template-columns: repeat(1, 18em);
         grid-column-gap: 4em;
         grid
         grid-row-gap: 2em;
