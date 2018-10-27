@@ -9,11 +9,6 @@ var formKnop = document.querySelector(".formknop");
 var formAanroep = document.querySelector(".formAanroep");
 var verdwijn = document.querySelector(".verdwijn");
 
-var downloadKnop = document.querySelector(".downloadknop");
-var gif = document.querySelector(".gif");
-
-console.log(downloadKnop)
-
 
 function formWissel() {
 
@@ -27,7 +22,7 @@ formKnop.textContent = '';
 formKnop.addEventListener('click',formWissel);
 
 
-///////********* DOWNLOAD ANIMATIE ********////////
+///////********* FILTER UITKLAP ********////////
 
 
 

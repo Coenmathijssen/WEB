@@ -97,12 +97,6 @@ main {
 }
 
 
-section h1:first-of-type {
-    display: inline;
-    padding-right: 5em;
-    font-size: 2em;
-
-}
 
 
 /************************************** ANIMATIE
@@ -113,6 +107,7 @@ section img {
     width: 4em;
     padding: auto 2em;
     margin-bottom: -1em;
+    display: inline;
 }
 
 .gifbeweeg {
@@ -152,13 +147,13 @@ section img {
     }
 
     100% {
-        transform: translate(41em, -9.8em);
+        transform: translate(41em, -12.8em);
     }
 }
 
 
 
-/************************************** ICONEN **************************************/
+/************************************** ICONEN, TITEL EN KNOPPEN **************************************/
 
 .fas.fa-eye,
 .fas.fa-star,
@@ -188,6 +183,113 @@ footer p {
     color: black;
     margin: 0em 1em 0em 0em;
     text-align: center;
+}
+
+footer {
+    border: 2px #ccc solid;
+    padding: 1em;
+    margin-right: 0;
+    border-radius: 1em;
+    padding-top: 1.5em;
+    display: inline;
+
+}
+
+
+footer span {
+    color: #00d66c;
+    font-weight: bold;
+}
+
+
+
+
+section h1:first-of-type {
+    padding-right: 5em;
+    font-size: 2em;
+    display: inline;;
+
+}
+
+.mobiel {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+/************************************** VERHAAL
+**************************************/
+
+main>img {
+    width: 100%;
+    margin-top: 5em;
+    border: 2px #ccc solid;
+    border-radius: 1em;
+}
+
+main section:first-of-type {
+    margin-top: 3em;
+}
+
+
+/************************************** MOBIEL BREAKPOINT
+**************************************/
+
+
+
+@media screen and (max-width: 41rem) {
+
+section h1:first-of-type {
+    padding-right: 1em;
+    font-size: 2em;
+    display: inline;;
+
+}
+
+    main {
+        padding: 1em;
+    }
+}
+
+footer {
+    width: 17em;
+}
+
+
+@media screen and (max-width: 35rem) {
+
+section h1:first-of-type {
+    padding-right: 0em;
+    font-size: 2em;
+    display: block;
+
+}
+
+    main {
+        padding: 1em;
+    }
+
+    footer p:last-of-type {
+        display: block;
+        margin-top: 1em;
+        text-align: left;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .laptop {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+    .mobiel {
+    visibility: visible;
+    position: relative;
+}
 }
 
 
