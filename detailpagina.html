@@ -86,15 +86,19 @@
             <p class="mobiel">Posted on 2 februari 2011 by Molovich</p>
 
 
-            <img src="./afbeeldingen/favoriet-01.png" alt="`icoon om aan favorieten toe te voegen'">
+           <img src="./afbeeldingen/hart-animatie.gif" alt="`icoon om aan favorieten toe te voegen'"  class="gif2 hide">
 
-            <a href="#reviews"><img src="./afbeeldingen/recensie-01.png" alt="`icoon om aan favorieten toe te voegen'" href="inloggen-inschrijven.html"></a>
+            <img src="./afbeeldingen/favoriet-01.png" alt="`icoon om aan favorieten toe te voegen'" class="favorietknop">
 
-            <img src="./afbeeldingen/gif-download.gif" alt="`icoon om aan favorieten toe te voegen'" class="gif hide">
+            <img src="./afbeeldingen/favoriet-01-01.png" alt="`icoon om aan favorieten toe te voegen'" class="gifbeweeg2">
 
-            <img src="./afbeeldingen/download-01.png" alt="`icoon om aan favorieten toe te voegen'" class="downloadknop">
+            <a href="#reviews"><img src="./afbeeldingen/recensie-01.png" alt="`icoon om recensie achter te laten'" href="inloggen-inschrijven.html"></a>
 
-            <img src="./afbeeldingen/16-01.png" alt="`icoon om aan favorieten toe te voegen'" class="gifbeweeg">
+            <img src="./afbeeldingen/gif-download.gif" alt="`icoon om aan verhaal te downloaden'" class="gif hide">
+
+            <img src="./afbeeldingen/download-01.png" alt="`icoon om aan verhaal te downloaden'" class="downloadknop">
+
+            <img src="./afbeeldingen/16-01.png" alt="`icoon om aan verhaal te downloaden'" class="gifbeweeg">
 
             <p class="laptop">Posted on 2 februari 2011 by Molovich</p>
 
@@ -102,8 +106,13 @@
 
         </section>
 
-        <img src="./afbeeldingen/eric-lucassen.png" alt="'vormgeving van het verhaal'">
+        <video controls>
+  <source src="./afbeeldingen/verhaal-laptop-2.mp4" type="video/mp4">
+</video>
 
+        <video controls>
+  <source src="./afbeeldingen/verhaal-mobiel.mp4" type="video/mp4">
+</video>
 
         <section id="reviews">
 
@@ -161,6 +170,30 @@
                 </article>
 
             </div>
+
+
+            <h1>Laat iedereen weten wat je van het verhaal vindt!</h1>
+            <p>Door een recensie achter te laten kan jij jouw ervaring met iedereen delen.</p>
+
+            <form>
+            <fieldset>
+                <label>Je naam
+        <input required type="text" name="naam" placeholder="Jouw naam...">
+        </label>
+
+                <label>Welk cijfer zou je het verhaal geven?
+        <input required type="number" name="quantity" min="1" max="10">
+        </label>
+
+
+                <label>Wat vond je van het verhaal?
+        <textarea required name="Textgebied" cols="40" rows="15"></textarea>
+        </label>
+                <p> Dankjewel! Je hebt alles goed ingevuld. </p>
+            </fieldset>
+
+            <input type="submit" value="Recensie Insturen">
+        </form>
 
         </section>
 

@@ -24,3 +24,23 @@ downloadKnop.addEventListener('click', gifAfspelen, false);
 
 
 
+
+
+
+var favorietKnop = document.querySelector(".favorietknop");
+var gif2 = document.querySelector(".gif2");
+var gifBeweeg2 = document.querySelector(".gifbeweeg2");
+
+function gifAfspelen2() {
+    favorietKnop.classList.add("hide");
+    gif2.classList.remove("hide");
+    gifBeweeg2.classList.add("visible");
+    setTimeout(loadaway, 3000);
+
+}
+
+
+
+
+
+favorietKnop.addEventListener('click', gifAfspelen2, false);

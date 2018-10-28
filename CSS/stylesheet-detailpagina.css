@@ -7,6 +7,14 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
 /* FONTS */
 
 h1,
@@ -31,6 +39,17 @@ h2 {
 h3 {
     font-size: 1.2em;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /************************************** MENU **************************************/
@@ -89,15 +108,36 @@ nav {
 }
 
 
+
+
+
+
+
+
+
+
+
 /************************************** MAIN
 **************************************/
 
 main {
     padding: 2em;
+    padding-bottom: 0em;
 }
 
 
-/************************************** ANIMATIE
+
+
+
+
+
+
+
+
+
+
+
+/************************************** ANIMATIE DOWNLOAD
 **************************************/
 
 section img {
@@ -141,6 +181,47 @@ section img {
         transform: translate(41em, -12.8em);
     }
 }
+
+
+
+
+
+
+/************************************** ANIMATIE FAVORIET
+**************************************/
+
+
+.gifbeweeg2 {
+    margin-left: -3em;
+    visibility: hidden;
+    position: absolute;
+    width: 3.3em;
+}
+
+.gifbeweeg2.visible {
+    visibility: visible;
+    animation: vliegen2 1.5s forwards;
+}
+
+@keyframes vliegen2 {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(46em, -12.8em);
+    }
+}
+
+
 
 
 /************************************** ICONEN, TITEL EN KNOPPEN **************************************/
@@ -201,10 +282,20 @@ section h1:first-of-type {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /************************************** VERHAAL
 **************************************/
 
-main>img {
+main>video {
     width: 100%;
     margin-top: 5em;
     border: 2px #ccc solid;
@@ -214,6 +305,31 @@ main>img {
 main section:first-of-type {
     margin-top: 3em;
 }
+
+main video:last-of-type {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 40rem) {
+
+    main video:first-of-type {
+        visibility: hidden;
+    position: absolute;
+    }
+
+    main video:last-of-type {
+    visibility: visible;
+    position: relative;
+}
+
+}
+
+
+
+
+
 
 
 /************************************** REVIEWS
@@ -241,7 +357,7 @@ section:nth-of-type(2) h1:nth-of-type(2) {
     margin: 2em 0.2em 2em 8.5em;
 }
 
-section:nth-of-type(2) label {
+section:nth-of-type(2) label:first-of-type {
     margin-right: 2em;
     color: #222222;
 }
@@ -314,6 +430,127 @@ div {
 }
 
 
+
+
+
+
+/************************************** RECENSIE ACHTERLATEN
+**************************************/
+
+
+[type=text], textarea {
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    color: black;
+    height: 2em;
+    border: solid 1px green;
+    background-color: #C3E1C3;
+    border-radius: 0.4em;
+    padding-left: 0.5em;
+    width: 80%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+textarea {
+    height: 7em;
+}
+
+
+
+[type=number] {
+    display: block;
+    padding: 0.3em;
+    font-family: "nexaregular", sans-serif;
+    font-size: 1em;
+    border: solid 0.5px #2800a0;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+}
+
+[type=submit] {
+    font-size: 1em;
+    background-color: #ff3268;
+    padding: 0.6em 1.3em 0.3em 1.3em;
+    border-bottom: solid 2px #CB315A;
+    border-radius: 4em;
+    color: white;
+    font-family: "nexabold";
+}
+
+[type=submit]:hover {
+    background-color: #fd678f;
+    color: white;
+}
+
+[type=submit]:focus {
+    background-color: #fd678f;
+    margin-top: 0.2em;
+    transition: 0.3s;
+}
+
+
+label {
+    font-weight: bold;
+    color: #222222;
+}
+
+input:not([type=submit]):invalid, textarea:invalid {
+    border: solid 0.5px #2800a0;
+    background-color: white;
+}
+
+input:not([type=submit]):focus, textarea:focus {
+    border: solid 2px #2800a0;
+    transform: scale(1.02);
+    transition: 0.5s;
+    outline: none;
+}
+
+fieldset>p {
+    visibility: hidden;
+    position: absolute;
+}
+
+fieldset {
+    background-color: none;
+    border: none;
+    padding: 1em;
+    padding-left: 0.1em;
+    border-radius: 1em;
+    margin: 1em auto;
+}
+
+fieldset:valid {
+    background-color: #C3E1C3;
+    padding-left: 1em;
+}
+
+fieldset:valid p {
+    visibility: visible;
+    position: relative;
+}
+
+
+section:last-of-type form label {
+    margin-right: 0em;
+    margin-left: 0em;
+}
+
+section:last-of-type form label:nth-of-type(2) {
+    margin-left: -2em;
+
+}
+
+section:last-of-type h1:last-of-type {
+    margin-top: 4em;
+}
+
+
+
+
+
+
 /************************************** MOBIEL BREAKPOINT
 **************************************/
 
@@ -376,7 +613,11 @@ footer {
         grid-column-gap: 4em;
         grid-row-gap: 2em;
     }
+
+
 }
+
+
 
 
 
@@ -415,7 +656,16 @@ footer {
     width: 12em;
     padding: 5px 40px 5px 10px;
 }
+
+
+
 }
+
+
+
+
+/************************************** MOBIEL BREAKPOINT
+**************************************/
 
 @media screen and (max-width: 30rem) {
 
@@ -424,13 +674,15 @@ footer {
     }
 
     article {
-        width: 17em;
+        width: 18em;
     }
 
     div {
         display: grid;
-        grid-template-columns: repeat (1, 17em);
+        grid-template-columns: repeat (1, 18em);
     }
+
+
 }
 
 
