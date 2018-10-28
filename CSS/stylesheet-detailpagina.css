@@ -306,7 +306,7 @@ main section:first-of-type {
     margin-top: 3em;
 }
 
-main video:last-of-type {
+main>img {
     visibility: hidden;
     position: absolute;
 }
@@ -314,15 +314,18 @@ main video:last-of-type {
 
 @media screen and (max-width: 40rem) {
 
-    main video:first-of-type {
+    main>video {
         visibility: hidden;
     position: absolute;
     }
 
-    main video:last-of-type {
+    main>img {
     visibility: visible;
     position: relative;
-}
+    width: 100%;
+    margin-top: 5em;
+    border: 2px #ccc solid;
+    border-radius: 1em;
 
 }
 
