@@ -1,3 +1,4 @@
+
 /************************************** FONTS **************************************/
 
 body {
@@ -281,7 +282,14 @@ section h1:first-of-type {
     position: absolute;
 }
 
+main section:first-of-type {
+    margin-top: 3em;
+}
 
+main section:first-of-type a {
+    position: absolute;
+
+}
 
 
 
@@ -295,39 +303,60 @@ section h1:first-of-type {
 /************************************** VERHAAL
 **************************************/
 
-main>video {
-    width: 100%;
-    margin-top: 5em;
-    border: 2px #ccc solid;
-    border-radius: 1em;
-}
-
-main section:first-of-type {
-    margin-top: 3em;
-}
-
-main>img {
-    visibility: hidden;
-    position: absolute;
-}
 
 
-@media screen and (max-width: 40rem) {
 
-    main>video {
+    main>video:first-of-type, main>img:first-of-type {
         visibility: hidden;
-    position: absolute;
+        position: absolute;
     }
 
-    main>img {
-    visibility: visible;
-    position: relative;
+
+    main>video:first-of-type, main>img:first-of-type, main>img:nth-of-type(2) {
     width: 100%;
     margin-top: 5em;
     border: 2px #ccc solid;
     border-radius: 1em;
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+/***** IPAD *****/
+
+@media screen and (min-width: 40rem) {
+    main>video:first-of-type, main>img:nth-of-type(2) {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    main>img:first-of-type {
+        visibility: visible;
+        position: relative;
+    }
 
 }
+
+
+    /***** DESKTOP *****/
+
+@media screen and (min-width: 60rem) {
+
+    main>img:first-of-type, main>img:nth-of-type(2) {
+        visibility: hidden;
+        position: absolute;
+        height: 0;
+    }
+
+     main>video:first-of-type {
+        visibility: visible;
+        position: relative;
+    }
+}
+
 
 
 
@@ -687,5 +716,4 @@ footer {
 
 
 }
-
 
