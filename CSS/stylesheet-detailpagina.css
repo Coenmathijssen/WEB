@@ -23,7 +23,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6
 {
     font-family: "nexabold", sans-serif;
 }
@@ -102,7 +102,6 @@ header li {
 
 nav {
     border-bottom: solid 2px #00d66c;
-    width: calc(100%+ 2em);
     margin: 0.5em -0.42em 2em -0.42em;
     background-color: white;
     padding-top: 0.3em;
@@ -449,7 +448,6 @@ article p:nth-of-type(4) {
 }
 
 section div article .fas.fa-star {
-    background-color: none;
     color: #00d66c;
     font-size: 2.5em;
     margin-top: 0;
@@ -545,7 +543,6 @@ fieldset>p {
 }
 
 fieldset {
-    background-color: none;
     border: none;
     padding: 1em;
     padding-left: 0.1em;
@@ -706,12 +703,12 @@ footer {
     }
 
     article {
-        width: 18em;
+        width: 20em;
     }
 
     div {
         display: grid;
-        grid-template-columns: repeat (1, 18em);
+        grid-template-columns: repeat(1, 20em);
     }
 
 
