@@ -164,6 +164,10 @@ section img {
     position: absolute;
 }
 
+
+
+@media screen and (min-width:60rem) {
+
 @keyframes vliegen {
     0% {
         opacity: 0;
@@ -182,6 +186,29 @@ section img {
     }
 }
 
+}
+
+
+@media screen and (max-width:30rem) {
+
+@keyframes vliegen {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(10.8em, -22.8em);
+    }
+}
+}
 
 
 
@@ -241,7 +268,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(13em, -22.8em);
+        transform: translate(12.8em, -22.8em);
     }
 }
 }
