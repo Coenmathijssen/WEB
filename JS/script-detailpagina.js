@@ -30,11 +30,13 @@ downloadKnop.addEventListener('click', gifAfspelen, false);
 var favorietKnop = document.querySelector(".favorietknop");
 var gif2 = document.querySelector(".gif2");
 var gifBeweeg2 = document.querySelector(".gifbeweeg2");
+var gifBeweeg2Mobiel = document.querySelector(".gifbeweeg2-mobiel");
 
 function gifAfspelen2() {
     favorietKnop.classList.add("hide");
     gif2.classList.remove("hide");
     gifBeweeg2.classList.add("visible");
+    gifBeweeg2Mobiel.classList.add("visible");
 
 }
 

@@ -203,6 +203,9 @@ section img {
     animation: vliegen2 1.5s forwards;
 }
 
+
+@media screen and (min-width:60rem) {
+
 @keyframes vliegen2 {
     0% {
         opacity: 0;
@@ -220,6 +223,30 @@ section img {
         transform: translate(46.5em, -12.8em);
     }
 }
+}
+
+@media screen and (max-width:30rem) {
+
+@keyframes vliegen2 {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(16em, -22.5em);
+    }
+}
+}
+
+
 
 
 
