@@ -142,7 +142,7 @@ main {
 
 section img {
     width: 4em;
-    padding: auto 2em;
+
     margin-bottom: -1em;
     display: inline;
 }
@@ -178,7 +178,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(41em, -12.8em);
+        transform: translate(41.5em, -12.8em);
     }
 }
 
@@ -217,7 +217,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(46em, -12.8em);
+        transform: translate(46.5em, -12.8em);
     }
 }
 

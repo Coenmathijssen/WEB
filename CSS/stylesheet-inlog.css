@@ -14,7 +14,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6
 {
     font-family: "nexabold", sans-serif;
 }
@@ -83,7 +83,6 @@ header li {
 
 nav {
     border-bottom: solid 2px #00d66c;
-    width: calc(100%+ 2em);
     margin: 0.5em -0.42em 2em -0.42em;
     background-color: white;
     padding-top: 1em;
@@ -168,7 +167,6 @@ fieldset>p {
 }
 
 fieldset {
-    background-color: none;
     border: none;
     padding: 1em;
     padding-left: 0.1em;
@@ -185,6 +183,10 @@ fieldset:valid p {
     visibility: visible;
     position: relative;
 }
+
+form>a:first-of-type {
+        color: #ff3268;
+    }
 
 
 /************** MOBIEL BREAKPOINT ***************/
