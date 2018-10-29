@@ -450,7 +450,11 @@ article h3 {
     padding-left: 1em;
 }
 
-article a {
+article a:first-of-type {
+    text-decoration: none;
+}
+
+article a:last-of-type {
     color: #2800a0;
     text-decoration: none;
     visibility: hidden;
