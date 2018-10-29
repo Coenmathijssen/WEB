@@ -104,8 +104,7 @@ form:first-of-type {
     border: solid 0.5px #2800a0;
     border-radius: 1em;
     padding-left: 0.5em;
-    width: 52%;
-    width: 58%;
+    width: 50%;
 }
 
 [type=submit] {
@@ -176,7 +175,7 @@ input:not([type=submit]):focus {
 }
 
 button:first-of-type,
-.filterToggleIn {
+.filterToggleUit {
     margin-top: 2em;
     margin-bottom: 0em;
     font-family: "nexaregular", sans-serif;
@@ -581,10 +580,7 @@ section:last-of-type {
     grid-gap: 1em;
 }
 
-section:last-of-type figure:last-of-type {
-    visibility: hidden;
-    position: absolute;
-}
+
 
 section:last-of-type>h2 {
    grid-column: span 2;
@@ -664,23 +660,17 @@ section:last-of-type>h2 {
   grid-column-end: 5;
 }
 
+ button:first-of-type {
+        visibility: hidden;
+        position: absolute;
+    }
 
 
-
-}
-
-
-
-
-
-    /*** FILTERS ***/
+     /*** FILTERS ***/
     .filter {
         border: none;
         padding: 1em;
         margin-top: -1em;
-    }
-    button:first-of-type {
-        display: none;
     }
     .filter [type=submit] {
         width: 12em;
@@ -740,10 +730,15 @@ section:last-of-type>h2 {
         margin-top: -30em;
     }
 
-
-
-
 }
+
+
+
+
+
+
+
+
 
 
 /************** IPAD BREAKPOINT 2 ***************/
@@ -911,6 +906,9 @@ section:last-of-type>h2 {
 }
 
 
+
+
+
 /************** MOBIEL ANIMAIE ***************/
 
 @media screen and (max-width: 44rem) {
@@ -926,6 +924,7 @@ section:last-of-type>h2 {
         height: 25em;
         border: solid 3px #2800a0;
         }
+
+
 }
 
-*/
