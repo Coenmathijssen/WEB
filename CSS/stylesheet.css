@@ -14,13 +14,11 @@ h2,
 h3,
 h4,
 h5,
-h6,
-{
+h6 {
     font-family: "nexabold", sans-serif;
 }
 
-h1,
-{
+h1 {
     font-size: 1.6em;
 }
 
@@ -84,8 +82,7 @@ header li {
 
 nav {
     border-bottom: solid 2px #00d66c;
-    width: calc(100%+ 2em);
-    margin: 0.5em -0.42em 2em -0.42em;
+    margin: 0.5em -0.42em 2em -0.52em;
 }
 
 
@@ -264,9 +261,7 @@ fieldset:last-of-type {
 h1:first-of-type {
     background-color: #F3E5D9;
     padding: 1em;
-    margin: none;
     color: #2800a0;
-    width: calc(100%+ 2em);
     margin: 2em -0.3em 0 -0.3em;
     display: block;
 }
@@ -276,7 +271,6 @@ h1:first-of-type {
     font-size: 1em;
     background-color: #F3E5D9;
     color: #2800a0;
-    width: calc(100%+ 2em);
     margin: -2em -0.5em 0 -0.5em;
     display: block;
 }
@@ -453,7 +447,6 @@ article h3 {
     width: calc(100% + 0em);
     margin: 0.3em 0em 0em -1em;
     color: #2800a0;
-    background-color: none;
     padding-left: 1em;
 }
 
@@ -505,7 +498,7 @@ section>h2 {
 }
 
 section:first-of-type article:nth-of-type(2) img {
-    height: 6.4em;
+    height: 7.5em;
 }
 
 
@@ -844,11 +837,11 @@ section:last-of-type>h2 {
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
-    main div h1:first-of-type {
+    main>div h1:first-of-type {
         color: #00d66c;
-        width: 14.77em;
-        margin-left: 12.56em;
-        padding: 0em 1em;
+        width: 19em;
+        margin-left: 15.7em;
+        padding: 0.5em 1em;
         background-color: #fff;
     }
     main div>p:last-of-type {

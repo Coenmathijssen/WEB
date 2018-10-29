@@ -12,7 +12,7 @@ function gifAfspelen() {
     downloadKnop.classList.add("hide");
     gif.classList.remove("hide");
     gifBeweeg.classList.add("visible");
-    setTimeout(loadaway, 3000);
+
 
 }
 
@@ -35,7 +35,6 @@ function gifAfspelen2() {
     favorietKnop.classList.add("hide");
     gif2.classList.remove("hide");
     gifBeweeg2.classList.add("visible");
-    setTimeout(loadaway, 3000);
 
 }
 
