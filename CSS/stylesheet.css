@@ -629,10 +629,11 @@ body>footer {
         margin-top: 5em;
         margin-bottom: 5em;
     }
-    article a {
-        visibility: visible;
-        position: relative;
-    }
+    article a:last-of-type {
+    visibility: visible;
+    position: relative;
+}
+
     article>p:last-of-type {
         visibility: visible;
         position: relative;
@@ -764,6 +765,12 @@ section:last-of-type>h2 {
     article {
         width: 18em;
     }
+
+    article a:last-of-type {
+    visibility: visible;
+    position: relative;
+}
+
     main section:first-of-type {
         margin-bottom: 5em;
     }
