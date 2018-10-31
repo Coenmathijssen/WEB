@@ -457,6 +457,7 @@ main section:first-of-type a {
      main>video:first-of-type {
         visibility: visible;
         position: relative;
+         height: 100%;
     }
 }
 
