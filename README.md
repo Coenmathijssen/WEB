@@ -1,3 +1,5 @@
+//////////////////////////////////////////
+
 ## README Transavia website - Gemaakt en ontwikkeld door Coen Mathijssen - PROJECT WEB
 
 De Transavia website is een volledig responsive verhalen website waar 99 dezelfde, maar elk uniek geschreven, verhalen worden aangeboden voor gebruikers om te lezen.
@@ -57,6 +59,50 @@ Bij elke pagina hoort een JavaScript bestand. Deze zijn gebruikt voor DOM-manipu
 
 ![inloggen-inschrijven.html](./JS/script-inloggen.js)
 *JavaScript van de inlog/inschrijfpagina*
+
+
+
+## Updates ontvangen van website
+
+Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmatig geupdate worden. Hou dit in de gaten voor updates.
+
+![Link](https://github.com/Coenmathijssen/WEB)
+
+
+
+## Website up-and-running krijgen
+
+#1 Sluit je aan bij een hosting partij en krijg serverruimte ter beschikking.
+
+#2 Maak een MYSQL database aan bij de hostingpartij
+
+#3 Vraag de FTP gegevens op:
+    HOST
+    USERNAME
+    PASSWORD
+    PORT (otioneel)
+
+#4 Download en installeerFileZilla van ![link](https://filezilla-project.org/)
+
+#5 Log in met de FTP gegevens
+
+#6 Plak alle bestanden in je server
+
+#7 Bezoek de domeinnaam die je toegewezen hebt gekregen van de hosting partij.
+
+
+
+## Vragen en/of suggesties
+
+mail naar *mathijssen.coen@gmail.com* voor vragen of suggesties over de code.
+
+
+//////////////////////////////////////////
+
+
+
+
+
 
 
 
