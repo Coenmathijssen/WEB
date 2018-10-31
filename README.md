@@ -82,7 +82,7 @@ Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmat
     PASSWORD
     PORT (otioneel)
 
-#4 Download en installeerFileZilla van ![link](https://filezilla-project.org/)
+#4 Download en installeerFileZilla van *https://filezilla-project.org/*
 
 #5 Log in met de FTP gegevens
 
@@ -94,7 +94,7 @@ Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmat
 
 ## Vragen en/of suggesties
 
-mail naar ![mijn Email](mailto:mathijssen.coen@gmail.com) voor vragen of suggesties over de code.
+mail naar *mathijssen.coen@gmail.com* voor vragen of suggesties over de code.
 
 
 //////////////////////////////////////////
