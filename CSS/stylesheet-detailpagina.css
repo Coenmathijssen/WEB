@@ -231,6 +231,49 @@ section img {
 }
 
 
+@media screen and (min-width:0rem) {
+
+@keyframes vliegen2 {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(13em, -22.7em);
+    }
+}
+}
+
+@media screen and (min-width:35rem) {
+
+@keyframes vliegen2 {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(13em, -22.7em);
+    }
+}
+}
+
+
 @media screen and (min-width:60rem) {
 
 @keyframes vliegen2 {
@@ -252,26 +295,7 @@ section img {
 }
 }
 
-@media screen and (max-width:30rem) {
 
-@keyframes vliegen2 {
-    0% {
-        opacity: 0;
-    }
-    15% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 0.3;
-    }
-    50% {
-        opacity: 0.6;
-    }
-    100% {
-        transform: translate(13em, -22.7em);
-    }
-}
-}
 
 
 
