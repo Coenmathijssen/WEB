@@ -205,7 +205,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(9em, -12.5em);
+        transform: translate(8.9em, -12.5em);
     }
 }
 }
@@ -294,7 +294,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(11em, -12.6em);
+        transform: translate(12em, -12.6em);
     }
 }
 }
