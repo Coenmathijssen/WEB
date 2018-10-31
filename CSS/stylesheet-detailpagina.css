@@ -205,7 +205,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(12.9em, -12.7em);
+        transform: translate(10.9em, -12.5em);
     }
 }
 }
@@ -294,7 +294,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(12.3em, -12.7em);
+        transform: translate(12.6em, -12.6em);
     }
 }
 }
@@ -775,7 +775,7 @@ footer {
     }
 
     section div article p:nth-of-type(3) {
-        margin-left: 13em;
+        margin-left: 11em;
     }
 
      div {
