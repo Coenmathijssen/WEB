@@ -21,13 +21,13 @@ Op de inlog/inschrijfpagina kan de gebruiker zich aanmelden of een account aanma
 
 ## Screenshots
 
-![index.html](./afbeeldingen/screenshots/overzichtspagina.png)
+![SS-overzichtspagina](./afbeeldingen/screenshots/overzichtspagina.png)
 *Full page screenshot van de overzichtspagina*
 
-![detailpagina.html](./afbeeldingen/screenshots/detailpagina.png)
+![SS-detailpagina](./afbeeldingen/screenshots/detailpagina.png)
 *Full page screenshot van de detailpagina*
 
-![inloggen-inschrijven.html](./afbeeldingen/screenshots/inlogpagina.png)
+![SS-inlogpagina](./afbeeldingen/screenshots/inlogpagina.png)
 *Full page screenshot van de inlogpagina*
 
 
@@ -36,13 +36,13 @@ Op de inlog/inschrijfpagina kan de gebruiker zich aanmelden of een account aanma
 
 Bij elke pagina hoort een css bestand. Hiermee is de webpagina (responsive) gestijld.
 
-![index.html](./CSS/stylesheet.css)
+![stylesheet-overzichtspagina](./CSS/stylesheet.css)
 *CSS stylesheet van overzichtspagina*
 
-![detailpagina.html](./CSS/stylesheet-detailpagina.css)
+![stylesheet-detailpagina](./CSS/stylesheet-detailpagina.css)
 *CSS stylesheet van detailpagina*
 
-![inloggen-inschrijven.html](./CSS/stylesheet.inlog.css)
+![stylesheet-inlog/inschrijfpagina](./CSS/stylesheet.inlog.css)
 *CSS stylesheet van inlog/inschrijfpagina*
 
 
@@ -51,13 +51,13 @@ Bij elke pagina hoort een css bestand. Hiermee is de webpagina (responsive) gest
 
 Bij elke pagina hoort een JavaScript bestand. Deze zijn gebruikt voor DOM-manipulatie door middel van het toevoegen/verwijderen van classes. Hiermee is het updaten van de filterknop na het kiezen van filters *OVERZICHTSPAGINA* , het verschijnen van het aanmeldformulier na klikken op 'nog geen account? Klik hier' *INLOG/INSCHRIJFPAGINA - ALLEEN OP MOBIEL/LAPTOP* en de animaties van het download/favoriet-icoon *DETAILPAGINA*.
 
-![index.html](./JS/script-index.js)
+![JavaScript-overzichtspagina](./JS/script-index.js)
 *JavaScript van overzichtspagina*
 
-![detailpagina.html](./JS/script-detailpagina.js)
+![JavaScript-detailpagina](./JS/script-detailpagina.js)
 *JavaScript van de detailpagina*
 
-![inloggen-inschrijven.html](./JS/script-inloggen.js)
+![JavaScript-inlog/inschrijfpagina](./JS/script-inloggen.js)
 *JavaScript van de inlog/inschrijfpagina*
 
 
@@ -66,7 +66,7 @@ Bij elke pagina hoort een JavaScript bestand. Deze zijn gebruikt voor DOM-manipu
 
 Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmatig geupdate worden. Hou dit in de gaten voor updates.
 
-![Link](https://github.com/Coenmathijssen/WEB)
+![Mijn GitHub](https://github.com/Coenmathijssen/WEB)
 
 
 
@@ -94,7 +94,7 @@ Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmat
 
 ## Vragen en/of suggesties
 
-mail naar *mathijssen.coen@gmail.com* voor vragen of suggesties over de code.
+mail naar ![mijn Email](mailto:mathijssen.coen@gmail.com) voor vragen of suggesties over de code.
 
 
 //////////////////////////////////////////
