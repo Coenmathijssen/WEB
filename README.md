@@ -74,7 +74,7 @@ Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmat
 
 #1 Sluit je aan bij een hosting partij en krijg serverruimte ter beschikking.
 
-#2 Maak een MYSQL database aan bij de hostingpartij
+#2 Maak een MYSQL database aan bij de hosting partij
 
 #3 Vraag de FTP gegevens op:
     HOST
@@ -82,7 +82,7 @@ Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmat
     PASSWORD
     PORT (otioneel)
 
-#4 Download en installeerFileZilla van *https://filezilla-project.org/*
+#4 Download en installeer FileZilla van *https://filezilla-project.org/*
 
 #5 Log in met de FTP gegevens
 
