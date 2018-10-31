@@ -21,13 +21,13 @@ Op de inlog/inschrijfpagina kan de gebruiker zich aanmelden of een account aanma
 
 ## Screenshots
 
-![SS-overzichtspagina](./afbeeldingen/screenshots/overzichtspagina.png)
+![SS-overzichtspagina](./afbeeldingen/Screenshots/Overzichtspagina.png)
 *Full page screenshot van de overzichtspagina*
 
-![SS-detailpagina](./afbeeldingen/screenshots/detailpagina.png)
+![SS-detailpagina](./afbeeldingen/Screenshots/Detailpagina.png)
 *Full page screenshot van de detailpagina*
 
-![SS-inlogpagina](./afbeeldingen/screenshots/inlogpagina.png)
+![SS-inlogpagina](./afbeeldingen/Screenshots/Inlogpagina.png)
 *Full page screenshot van de inlogpagina*
 
 
@@ -42,7 +42,7 @@ Bij elke pagina hoort een css bestand. Hiermee is de webpagina (responsive) gest
 ![stylesheet-detailpagina](./CSS/stylesheet-detailpagina.css)
 *CSS stylesheet van detailpagina*
 
-![stylesheet-inlog/inschrijfpagina](./CSS/stylesheet.inlog.css)
+![stylesheet-inlog/inschrijfpagina](./CSS/stylesheet-inlog.css)
 *CSS stylesheet van inlog/inschrijfpagina*
 
 
