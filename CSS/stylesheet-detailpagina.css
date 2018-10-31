@@ -205,7 +205,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(15.4em, -12.8em);
+        transform: translate(12.9em, -12.8em);
     }
 }
 }
@@ -227,7 +227,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(41.5em, -12.8em);
+        transform: translate(41.5em, -12.7em);
     }
 }
 
@@ -294,7 +294,7 @@ section img {
         opacity: 0.6;
     }
     100% {
-        transform: translate(12.3em, -12.8em);
+        transform: translate(12.3em, -12.7em);
     }
 }
 }
@@ -377,7 +377,6 @@ section h1:first-of-type {
     padding-right: 5em;
     font-size: 2em;
     display: inline;
-    ;
 }
 
 .mobiel {
@@ -434,6 +433,7 @@ main section:first-of-type a {
     main>video:first-of-type, main>img:nth-of-type(2) {
         visibility: hidden;
         position: absolute;
+        height: 0;
     }
 
     main>img:first-of-type {
@@ -770,7 +770,7 @@ footer {
     }
 
     article {
-        width: 20em;
+        width: 16em;
     }
 
     section div article p:nth-of-type(3) {
@@ -779,8 +779,8 @@ footer {
 
      div {
         display: grid;
-        grid-template-columns: repeat(2, 20em);
-        grid-column-gap: 2em;
+        grid-template-columns: repeat(2, 16em);
+        grid-column-gap: 4em;
         grid-row-gap: 2em;
     }
 
@@ -800,7 +800,7 @@ footer {
 /************************************** MOBIEL BREAKPOINT
 **************************************/
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 40rem) {
 
     select {
         width: 10em;
