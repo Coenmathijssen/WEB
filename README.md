@@ -77,10 +77,10 @@ Ga naar mijn GitHub WEB project en download alle bestanden. Deze zullen regelmat
 #2 Maak een MYSQL database aan bij de hosting partij
 
 #3 Vraag de FTP gegevens op:
-    HOST
-    USERNAME
-    PASSWORD
-    PORT (otioneel)
+    HOST,
+    USERNAME,
+    PASSWORD,
+    PORT (optioneel)
 
 #4 Download en installeer FileZilla van *https://filezilla-project.org/*
 
