@@ -421,7 +421,7 @@ main>div:first-of-type {
 }
 
 article {
-    border: solid 2px #606060;
+    border: solid 0.5px #606060;
     border-radius: 1em;
     margin: 1em;
     padding: 1em;
